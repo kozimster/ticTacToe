@@ -1,3 +1,17 @@
+/*
+ * Project with JetBrains Academy - Stage 2/5: The user is the gamemaster 
+ * ..."write a program that reads 9 symbols from the input and writes an appropriate 3x3 field...."
+ * example:
+ * Enter cells: O_OXXO_XX
+---------
+| O _ O |
+| X X O |
+| _ X X |
+---------
+ */
+
+
+
 package ticTacToe;
 import java.util.Scanner;
 public class Main {
