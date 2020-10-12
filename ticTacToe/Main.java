@@ -9,7 +9,18 @@
 | _ X X |
 ---------
  */
+/*
+ * Stage 3/5: What's up on the field? 
+ * In this stage, you should analyze a Tic-Tac-Toe field. 
+ * After printing the field, you need to find the state in which the game is at the moment. Possible states:
 
+    "Game not finished" - when no side has a three in a row but the field has empty cells;
+    "Draw" - when no side has a three in a row and the field has no empty cells;
+    "X wins" - when the field has three X in a row;
+    "O wins" - when the field has three O in a row;
+    "Impossible" - when the field has three X in a row as well as three O in a row. Or the field has a lot more X's than O's or vice versa (if the difference is 2 or more, should be 1 or 0).
+
+ */
 
 
 package ticTacToe;
